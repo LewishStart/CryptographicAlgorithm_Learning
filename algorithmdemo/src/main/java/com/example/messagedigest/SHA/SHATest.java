@@ -55,6 +55,7 @@ public class SHATest {
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
         }
+
     }
     private static void jdkSHA512Test(){
         try {
