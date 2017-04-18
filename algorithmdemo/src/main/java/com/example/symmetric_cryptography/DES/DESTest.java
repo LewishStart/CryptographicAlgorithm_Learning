@@ -18,8 +18,7 @@ import javax.crypto.spec.DESedeKeySpec;
 public class DESTest {
     private static final String src= "https://github.com/LewishStart";
     private static void jdk3DESTest(){
-        try
-        {
+        try {
             // 生成KEY
             KeyGenerator keyGenerator = KeyGenerator.getInstance("DESede");
             // 必须长度是：112或168

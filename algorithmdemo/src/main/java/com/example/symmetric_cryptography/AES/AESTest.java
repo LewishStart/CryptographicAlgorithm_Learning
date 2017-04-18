@@ -18,8 +18,7 @@ public class AESTest {
     private static final String src= "https://github.com/LewishStart";
     private static final String ENCRYPT_KEY = "1111111111111111";
     private static void jdkAESTest1(){
-        try
-        {
+        try {
             // 生成KEY
             KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
             keyGenerator.init(128);
