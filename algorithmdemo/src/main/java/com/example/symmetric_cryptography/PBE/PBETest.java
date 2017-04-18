@@ -32,7 +32,6 @@ public class PBETest {
             SecretKeyFactory factory = SecretKeyFactory.getInstance("PBEWITHMD5andDES");
             Key key = factory.generateSecret(pbeKeySpec);
 
-
             // 加密
             PBEParameterSpec pbeParameterSpac = new PBEParameterSpec(salt, 100);
             Cipher cipher = Cipher.getInstance("PBEWITHMD5andDES");
